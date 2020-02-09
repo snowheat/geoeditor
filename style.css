@@ -1,0 +1,17 @@
+.map {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+#editor-form {
+  position: absolute;
+  z-index: 10;
+  text-align: right;
+  padding: 12px 12px 0 0;
+  pointer-events: none;
+}
+
+#editor-form button, #editor-form select, #editor-form input {
+  pointer-events: auto;
+}
